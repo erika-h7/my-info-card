@@ -11,6 +11,9 @@
 		8B28640728EF87230067301C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28640628EF87230067301C /* ContentView.swift */; };
 		8B28640928EF87250067301C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B28640828EF87250067301C /* Assets.xcassets */; };
 		8B28640C28EF87250067301C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B28640B28EF87250067301C /* Preview Assets.xcassets */; };
+		8B28641428EF8F960067301C /* RobotoMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B28641328EF8F960067301C /* RobotoMono.ttf */; };
+		8B28641628EF8FE00067301C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B28641528EF8FE00067301C /* Launch Screen.storyboard */; };
+		8B28641828EF90F50067301C /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B28641728EF90F50067301C /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8B28640628EF87230067301C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B28640828EF87250067301C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B28640B28EF87250067301C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B28641328EF8F960067301C /* RobotoMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoMono.ttf; sourceTree = "<group>"; };
+		8B28641528EF8FE00067301C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8B28641728EF90F50067301C /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		8B28640328EF87230067301C /* ErikaCard */ = {
 			isa = PBXGroup;
 			children = (
+				8B28641228EF8EAD0067301C /* fonts */,
 				8B28640428EF87230067301C /* ErikaCardApp.swift */,
 				8B28640628EF87230067301C /* ContentView.swift */,
+				8B28641528EF8FE00067301C /* Launch Screen.storyboard */,
+				8B28641728EF90F50067301C /* Property List.plist */,
 				8B28640828EF87250067301C /* Assets.xcassets */,
 				8B28640A28EF87250067301C /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				8B28640B28EF87250067301C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B28641228EF8EAD0067301C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B28641328EF8F960067301C /* RobotoMono.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,9 @@
 			files = (
 				8B28640C28EF87250067301C /* Preview Assets.xcassets in Resources */,
 				8B28640928EF87250067301C /* Assets.xcassets in Resources */,
+				8B28641628EF8FE00067301C /* Launch Screen.storyboard in Resources */,
+				8B28641828EF90F50067301C /* Property List.plist in Resources */,
+				8B28641428EF8F960067301C /* RobotoMono.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
