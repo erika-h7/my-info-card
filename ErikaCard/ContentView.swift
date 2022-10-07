@@ -29,6 +29,7 @@ struct ContentView: View {
                     .foregroundColor(Color.black)
                 Divider()
                 InfoView(text:"+1 123-456-7890", iconImageName: "phone.fill")
+                InfoView(text: "Github", iconImageName: "person.fill")
                 
             }
         }
@@ -42,20 +43,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct InfoView: View {
-    
-    let text: String
-    let iconImageName: String
-    
-    var body: some View {
-        RoundedRectangle(cornerRadius: 30)
-            .fill(Color.black)
-            .frame(height: 50)
-            .overlay(HStack {
-                Image(systemName: iconImageName)
-                    .foregroundColor(Color(UIColor(red: 0.48, green: 0.54, blue: 0.43, alpha: 1.00)))
-                Text(text).foregroundColor(.white)
-            })
-            .padding(.all)
-    }
-}
+
